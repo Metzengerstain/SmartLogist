@@ -1,0 +1,56 @@
+<style>
+/* Общие элементы, обычное состояние */
+table {
+   border: 2px double black;
+   border-collapse:collapse;
+}
+th {
+   border: double black;
+   border-radius:5px;
+}
+tr {
+   border: 1px solid black;
+}
+td {
+   border: 1px dotted black;
+}
+ul.pixel-tabs {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul.pixel-tabs li {
+	display: inline-block;
+	line-height: 30px;
+	border: 1px solid #999;
+	border-bottom: 0 none;
+}
+ul.pixel-tabs li a.tab {
+	border-bottom: 1px solid #999;
+	background: #eee;
+	height: 29px;
+}
+ul.pixel-tabs li a {
+	display: block;
+	color: #666;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0px 12px;
+	white-space: nowrap;
+}
+ul.pixel-tabs li a:hover {
+	border-bottom: none;
+}
+/* Активно */
+ul.pixel-tabs li a.active-tab {
+	background: #fff;
+	border-bottom: 0 none;
+}
+/* Содержание */
+.content-tab {
+	border: 1px solid #999;
+	float: left;
+	margin: -1px 0 0 0;
+	padding: 20px;
+}
+</style>
